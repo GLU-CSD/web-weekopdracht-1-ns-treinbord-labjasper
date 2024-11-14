@@ -1,30 +1,87 @@
-#container{
-    width: 936px;
+.bord {
     display: flex;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid #000;
 }
 
-#left{
+#Klok {
+    background-color: rgb(228, 228, 228);
+    height: 320px;
     width: 240px;
-    background-color: #f2f2f2;
-    height: 335px;
-    border: 2px solid #000;
+    border: 2px solid black;
 }
 
-#middle {
-    width: 568px;
-    height: 339px;
-    background-color: rgb(0, 0, 106);
-    padding: 35px;
-    box-sizing: border-box;
-    border: 2px solid #000;
+#TrijnInfo {
+    background-color: blue;
+    height: 320px;
+    width: 640px; 
+    border: 2px solid black;
 }
 
-#right{
-    width:128px;
-    height: 335px;
-    background-color: rgb(0, 0, 106);
-    border: 2px solid #000;
+#Scherm{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 280px;
+    width: 560px; 
+    background-color: white;
+    display: grid;
+    grid-template-areas: 
+        "hoeLang SoortTrijnEnLogo"
+        "WaarGaatTrijnHeen WaarGaatTrijnHeen"
+        "Via Via"
+        "Volgende Volgende";
+}
+
+#hoeLang {
+    color: rgb(0 0 107);
+    height: 50px;
+    grid-area: hoeLang;
+    display: flex;
+    align-items: flex-end;
+}
+
+#getal {
+    height: 50px;
+    width: 55px;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+#minuten {
+    height: 33px;
+    width: 70px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#SoortTrijnEnLogo {
+    color: rgb(0 0 107);
+    height: 55px;
+    font-family: Arial;
+    font-size: 40px;
+    grid-area: SoortTrijnEnLogo;
+    display: flex;
+}
+
+#sprinter {
+    height: 55px;
+    width: 300px;
+    text-align: end;
+}
+
+#AankomstTijd {
+    height: 50px;
+    width: 200px;
+}
+
+#WaarGaatTrijnHeen {
+    grid-area: WaarGaatTrijnHeen;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#Paron {
+    background-color: blue;
+    height: 320px;
+    width: 180px; 
+    border: 2px solid black;
 }
