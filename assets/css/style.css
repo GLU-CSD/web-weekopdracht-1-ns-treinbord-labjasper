@@ -12,13 +12,15 @@
 #TrijnInfo {
     background-color: blue;
     height: 320px;
-    width: 640px; 
+    width: 600px; 
     border: 2px solid black;
 }
 
 #Scherm{
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     height: 280px;
     width: 560px; 
     background-color: white;
@@ -32,7 +34,7 @@
 
 #hoeLang {
     color: rgb(0 0 107);
-    height: 50px;
+    height: 55px;
     grid-area: hoeLang;
     display: flex;
     align-items: flex-end;
@@ -73,15 +75,65 @@
 }
 
 #WaarGaatTrijnHeen {
+    color: rgb(0 0 107);
     grid-area: WaarGaatTrijnHeen;
     font-family: Arial;
     font-weight: bold;
     font-size: 50px;
 }
 
+#Via {
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(0 0 107);
+    height: 137px;
+    grid-area: Via;
+}
+
+#Volgende {
+    grid-area:  Volgende;
+    height: 30px;
+    background-color: rgb(0 0 107);
+}
+
 #Paron {
     background-color: blue;
     height: 320px;
-    width: 180px; 
+    width: 140px; 
     border: 2px solid black;
+}
+
+#WitFlak {
+    background: white;
+    color: blue;
+    font-family: Arial;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    display: grid;
+    grid-template-areas:
+        "KlijnBlauwFlak spoor"
+        "paronNummer paronNummer";
+}
+
+#KlijnBlauwFlak {
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+    grid-area: KlijnBlauwFlak;
+}
+
+#spoor {
+    height: 20px;
+    margin-right: 50px;
+    margin-top: 5px;
+   grid-area: spoor; 
+}
+
+#paronNummer {
+    font-size: 65px;
+    margin-left: 40px;
+    grid-area: paronNummer;
 }
