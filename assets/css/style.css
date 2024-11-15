@@ -91,9 +91,27 @@
 }
 
 #Volgende {
+    color: white;
     grid-area:  Volgende;
     height: 30px;
     background-color: rgb(0 0 107);
+    display: flex;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#Hierna {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#next {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#trijn {
+    margin-top: 5px;
 }
 
 #Paron {
@@ -126,10 +144,10 @@
 }
 
 #spoor {
-    height: 20px;
+    height: 18px;
     margin-right: 50px;
-    margin-top: 5px;
-   grid-area: spoor; 
+    margin-top: 7px;
+    grid-area: spoor; 
 }
 
 #paronNummer {
