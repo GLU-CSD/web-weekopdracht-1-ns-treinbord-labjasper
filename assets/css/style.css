@@ -9,23 +9,29 @@
     border: 2px solid black;
 }
 
+#cirkel {
+    margin: 16px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(189, 189, 189);
+    border-radius: 50%;
+}
+
 #TrijnInfo {
     background-color: blue;
     height: 320px;
-    width: 600px; 
+    width: 600px;
     border: 2px solid black;
 }
 
-#Scherm{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+#Scherm {
+    margin: 20px;
     height: 280px;
-    width: 560px; 
+    width: 560px;
     background-color: white;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "hoeLang SoortTrijnEnLogo"
         "WaarGaatTrijnHeen WaarGaatTrijnHeen"
         "Via Via"
@@ -92,7 +98,7 @@
 
 #Volgende {
     color: white;
-    grid-area:  Volgende;
+    grid-area: Volgende;
     height: 30px;
     background-color: rgb(0 0 107);
     display: flex;
@@ -117,7 +123,7 @@
 #Paron {
     background-color: blue;
     height: 320px;
-    width: 140px; 
+    width: 140px;
     border: 2px solid black;
 }
 
@@ -147,7 +153,7 @@
     height: 18px;
     margin-right: 50px;
     margin-top: 7px;
-    grid-area: spoor; 
+    grid-area: spoor;
 }
 
 #paronNummer {
