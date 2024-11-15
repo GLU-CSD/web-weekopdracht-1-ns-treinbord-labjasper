@@ -18,6 +18,12 @@
     border-radius: 50%;
 }
 
+#wijzer1 {
+    background-color: red;
+    width: 5px;
+    height: 110px;
+}
+
 #TrijnInfo {
     background-color: blue;
     height: 320px;
